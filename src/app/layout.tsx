@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Header } from "./misComponentes/Header";
+import { Footer } from "./misComponentes/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -27,7 +29,9 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${geistMono.variable} antialiased bg-black`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
