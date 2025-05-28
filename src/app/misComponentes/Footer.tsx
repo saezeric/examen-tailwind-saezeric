@@ -4,8 +4,8 @@ import * as React from "react";
 
 export function Footer() {
   return (
-    <footer className="flex items-center justify-between mx-20 py-4">
-      <span className="flex flex-row items-center text-base font-normal text-white mx-2 hover:bg-black hover:text-white cursor-pointer px-2 py-1 rounded">
+    <footer className="flex items-center justify-between mx-10 py-4">
+      <span className="flex flex-row items-center font-normal text-white mx-2 hover:bg-black hover:text-white cursor-pointer px-2 py-1 rounded">
         <svg
           className="mr-2"
           width="20"

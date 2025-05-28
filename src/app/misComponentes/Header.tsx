@@ -11,7 +11,7 @@ import {
 
 export function Header() {
   return (
-    <NavigationMenu className="mx-20">
+    <NavigationMenu className="mx-10">
       <NavigationMenuList>
         <NavigationMenuItem>
           {/* He encontrado en reddit una persona que solucionaba el problema utilizando asChild, no se si es una buena practica pero me ha funcionado */}
